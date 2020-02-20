@@ -9,8 +9,8 @@ import os
 
 # define groups of webservers and databases
 env.roledefs = {
-    "webserver" : [ "172.31.18.225","172.31.99.87","172.31.110.13" ],
-    "database":[ "172.31.118.128","172.31.43.92" ],
+    "webserver" : [ "10.0.0.0","10.0.0.1" ],
+    "database":[ "10.0.0.2","10.0.0.3" ],
 
 
 }
